@@ -19,7 +19,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a> , I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 │
 ├⍟ Fʀᴀᴍᴇᴡᴏʀᴋ : Pʏʀᴏɢʀᴀᴍ 1.4.16
 │
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.dog/LastDrogz'>Lᴀsᴛ 🐲 Dʀᴏɢᴢ</a>
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.dog/its_Kd7'>ꜰᴀᴢɴɪ 🐲 ᴀʜᴍᴇᴅ</a>
 │
 ├⍟ Pᴏᴡᴇʀᴇᴅ ʙʏ : @TamilRockerz_FZN
 │
