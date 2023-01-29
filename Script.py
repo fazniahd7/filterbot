@@ -21,31 +21,40 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a> , I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 │
 ├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.dog/LastDrogz'>Lᴀsᴛ 🐲 Dʀᴏɢᴢ</a>
 │
-├⍟ Pᴏᴡᴇʀᴇᴅ ʙʏ : @TamilRockers_FZN
+├⍟ Pᴏᴡᴇʀᴇᴅ ʙʏ : @TamilRockerz_FZN
 │
 ╰──[ @TamilRockers_FZN ]──⍟ </b> """
-    SOURCE_TXT = """𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 @TamilRockers_FZN 
+    SOURCE_TXT = """𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 @TamilRockerz_FZN 
 <b>
 
 🇹​​​​​🇦​​​​​🇲​​​​​🇮​​​​​🇱​​​​​ 🇷​​​​​🇴​​​​​🇨​​​​​🇰​​​​​🇪​​​​​🇷​​​​​🇸​​​
 
 🔰HD New Movies🔰
-https://t.me/+PRa2TidGPo4wMmI1
+https://t.me/+HQc7ud8E02szYWFl
+
+🔰4k & 1080p Movies🔰
+https://t.me/TamilRockerz_4k_1080p
+
+🔰Tamil Dubbed Movies🔰
+https://t.me/+QUmNa4hP-NoyMTll
+
+🔰Fast Download Links🔰
+https://t.me/TamilRockerz_4k_1080p
 
 🔰Backup HD Movies🔰
-https://t.me/+TtuoCBcpB1hlYWM9
+https://t.me/+cZT_9BbHlWQxNTY1
 
 🔰Movies Request Group🔰
-https://t.me/+mtQpDnr9fIwwNmM1
+https://t.me/+PN59dOdJNNAxYzQ1
 
 🔰Support This Channel🔰
-https://t.me/TamilRockers_FZN
+https://t.me/TamilRockerz_FZN
 
              ✯ ━━━━━ ♡︎ ━━━━━ ✯ </b>
 
 <b>⭕️ Ꭰɪsᴄʟᴀɪᴍᴇʀ </b> : <code> All The Content in this Channel is Taken From the Internet, We Don't Own Any Content. </code>
 <b>
-Pᴏᴡᴇʀᴇᴅ Bʏ - @TamilRockers_FZN
+Pᴏᴡᴇʀᴇᴅ Bʏ - @TamilRockerz_FZN
 
 Sʜᴀʀᴇ & Sᴜᴘᴘᴏʀᴛ Us </b> """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
