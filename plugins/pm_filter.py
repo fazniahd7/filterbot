@@ -66,7 +66,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
-                    url=f"https://du-link.in/st?api=76e122f0034f858ae5747331f4165857502aba85&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
+                    url=f"https://URLKR/st?api=APIKR&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
                 ),
             ]
             for file in files
