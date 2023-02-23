@@ -383,5 +383,5 @@ def humanbytes(size):
 ####################  Dulink  ####################
 
 async def get_shortlink(link):
-    shortzy = Shortzy("76e122f0034f858ae5747331f4165857502aba85", "dulink.in")
+    shortzy = Shortzy("3b54086b1d604260b2843af43a2e0892b0ebe9f9", "dulink.in")
     return await shortzy.convert(link)
