@@ -670,7 +670,7 @@ async def auto_filter(client, msg, spoll=False):
             [
                 InlineKeyboardButton(
                     text=f"{file.file_name}",
-                    url=f"https://tnlink.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}"
+                    url=f"https://hit-link.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}"
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
