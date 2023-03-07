@@ -66,7 +66,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
-                    url=f"https://tnlink.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
+                    url=f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
                 ),
             ]
             for file in files
@@ -76,7 +76,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton(
                     text=f"{file.file_name}", 
-                    url=f"https://tnlink.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
+                    url=f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
@@ -362,12 +362,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                dulink =f"https://tnlink.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
+                dulink =f"https://hit-link.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
                 print(dulink)
                 await query.answer(url=dulink)
                 return
             elif settings['botpm']:
-                dulink =f"https://tnlink.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
+                dulink =f"https://hit-link.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
                 print(dulink)
                 await query.answer(url=dulink)
                 return
@@ -382,11 +382,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
-            dulink =f"https://tnlink.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
+            dulink =f"https://hit-link.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
             print(dulink)
             await query.answer(url=dulink)
         except Exception as e:
-            dulink =f"https://tnlink.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
+            dulink =f"https://hit-link.in/st?api=3b54086b1d604260b2843af43a2e0892b0ebe9f9&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
             print(dulink)
             await query.answer(url=dulink)
     elif query.data.startswith("checksub"):
