@@ -383,5 +383,5 @@ def humanbytes(size):
 ####################  Hit-link  ####################
 
 async def get_shortlink(link):
-    shortzy = 7a884c8b89db98f97c1a2f86b694422af91a996d", "hit-link.in")
+    shortzy = Shortzy("7a884c8b89db98f97c1a2f86b694422af91a996d", "hit-link.in")
     return await shortzy.convert(link)
