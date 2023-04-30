@@ -66,7 +66,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
-                    url=f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
+                    url=f"https://dalink.in/st?api=d4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
                 ),
             ]
             for file in files
@@ -76,7 +76,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton(
                     text=f"{file.file_name}", 
-                    url=f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
+                    url=f"https://dalink.in/st?api=d4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e&url=https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
@@ -362,14 +362,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                dulink =f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
+                dulink =f"https://dalink.in/st?api=d4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
                 print(dulink)
-                await query.answer(url=dulink)
+                await query.answer(url=dalink)
                 return
             elif settings['botpm']:
-                dulink =f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
+                dulink =f"https://dalink.in/st?api=d4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
                 print(dulink)
-                await query.answer(url=dulink)
+                await query.answer(url=dalink)
                 return
             else:
                 await client.send_cached_media(
@@ -382,13 +382,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
-            dulink =f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
+            dulink =f"https://dalink.in/st?api=d4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
             print(dulink)
             await query.answer(url=dulink)
         except Exception as e:
-            dulink =f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
+            dulink =f"https://dalink.in/st?api=d4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e&url=https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}"
             print(dulink)
-            await query.answer(url=dulink)
+            await query.answer(url=dalink)
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
             await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒", show_alert=True)
@@ -424,7 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('©️ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url='https://t.me/TamilRockers_FZN'),
+            InlineKeyboardButton('©️ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url='https://t.me/TamilRockerz_FZN'),
             InlineKeyboardButton('🕵 Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url='https://t.me/+mtQpDnr9fIwwNmM1')
             ],[      
             InlineKeyboardButton('⚙️ Hᴇʟᴘ', callback_data='help'),
@@ -456,7 +456,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TamilRockers_FZN'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/TamilRockerz_FZN'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -660,7 +660,7 @@ async def auto_filter(client, msg, spoll=False):
             [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
-                    url=f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}"
+                    url=f"https://dalink.in/st?api=d4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e&url=https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}"
                 ),
             ]
             for file in files
@@ -670,7 +670,7 @@ async def auto_filter(client, msg, spoll=False):
             [
                 InlineKeyboardButton(
                     text=f"{file.file_name}",
-                    url=f"https://hit-link.in/st?api=7a884c8b89db98f97c1a2f86b694422af91a996d&url=https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}"
+                    url=f"https://dalink.in/st?api=d4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e&url=https://telegram.me/{temp.U_NAME}?start=pre_{file.file_id}"
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
