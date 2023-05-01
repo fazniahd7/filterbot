@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['API_ID', '1199646357'])
+API_HASH = environ['API_HASH', 'fabc74f91bf809a4bce6b65dd7034ae9']
+BOT_TOKEN = environ['BOT_TOKEN', '5390576577:AAEcGNW-dZCAtKrUZUmNzNJkTLB15kPMPv4']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,13 +32,14 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_Files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://fznkd:fznkd@cluster0.wifumu3.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "TamilRockersMovies")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ajax_Files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001799864083'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TamilRockerz_FZN'))
+')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
